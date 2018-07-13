@@ -1,0 +1,25 @@
+body {
+	background-color: $dark_white;
+	font-size: 14px;
+	color: $text;
+}
+
+.navbar {
+	background-color: $basic_white;
+	border-bottom: 1px solid rgba(0,0,0,0.1975);
+
+}
+
+.navbar-brand {
+	font-size: 32px;
+}
+
+.nav-item {
+	font-size: 22px;
+	> .nav-link {
+		> i {
+			color: $text;
+		}
+	}
+}
+
