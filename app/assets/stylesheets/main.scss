@@ -62,6 +62,16 @@ body {
 		> .card-body {
 			padding-left: 40px;
 			padding-right: 40px;
+			.form-group {
+				.form-control {
+					background-color: $dark_white;
+				}
+			}
+			> h6 {
+				margin-top: 16px;
+				color: $light_text;
+				line-height: 1.5;
+			}
 		}
 	}
 	> .card-item {
@@ -70,7 +80,7 @@ body {
 		border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
 	}
