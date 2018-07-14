@@ -38,6 +38,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'bootstrap', '~> 4.1', '>= 4.1.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'omniauth', '~> 1.8', '>= 1.8.1'
+gem 'omniauth-twitter', '~> 1.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
