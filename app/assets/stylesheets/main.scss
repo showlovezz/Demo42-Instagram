@@ -86,3 +86,8 @@ body {
 	}
 }
 
+.container {
+	> .view {
+		height: 100vh;
+	}
+}
